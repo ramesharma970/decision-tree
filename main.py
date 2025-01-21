@@ -50,13 +50,6 @@ plt.figure(figsize=(12,8))
 plot_tree(model, filled=True, feature_names=X.columns, class_names=label_encoder_lung_cancer.classes_, rounded=True)
 plt.show()
 
-# ---- Prediction for one sample input ----
-
-# Example input: You can create a sample input to test the model.
-# Let's say you want to predict for the following:
-# Gender: M, Age: 69, Smoking: 1, Yellow Fingers: 2, Anxiety: 2, Peer Pressure: 1, Chronic Disease: 1, 
-# Fatigue: 2, Allergy: 1, Wheezing: 2, Alcohol Consuming: 2, Coughing: 2, Shortness of Breath: 2,
-# Swallowing Difficulty: 2, Chest Pain: 2
 
 # Sample data to predict (you can manually fill this as per the input format of your dataset):
 Input_data = [
